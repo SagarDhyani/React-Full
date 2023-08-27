@@ -8,19 +8,8 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Reload and check for replaced content</h1>
      <div id="root">Replaced Heading</div>   <!--This is replaced by heading1 -->
-     <h1>Reload and check for replaced content</h1>
-    <div id="root1"></div>
     <!-- installed react and react-dom. no need for cdn links now -->
-    <script  
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
 
     <script>
       const heading = React.createElement("h1", {id: "heading1"}, "Hello From React");
@@ -33,3 +22,4 @@
     <script src="./App.js"></script>
   </body>
 </html>
+
